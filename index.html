@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            font-family:  Helvetica, sans-serif;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: gray;
+        }
+
+        .main {
+            display: flex;
+            width: 50%;
+            height: 35vh;
+            padding-top: 18px;
+            background-color: white;
+            /* Optional: Full screen height */
+        }
+
+        .left {
+            width: 30%;
+            /* background-color: #f0f0f0; */
+            /* Just for visibility */
+            padding: 10px;
+
+        }
+
+        .right {
+            width: 70%;
+            /* background-color: #d0d0d0; */
+            /* Just for visibility */
+
+            padding: 10px;
+
+
+
+        }
+
+        .left>div {
+            background-color: green;
+            height: 100%;
+            width: 100%;
+
+            background-image: url("personImage.png");
+            background-size: cover;
+            /* Ensures the image covers the entire div */
+            background-position: center;
+            /* Centers the image */
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="left">
+            <div>
+
+            </div>
+        </div>
+        <div class="right" style="padding-left: 20px;  ">
+            <div style="font-size:33px;  ">
+                <p  ><b>@moshhamedani</b></p>
+                <p style="margin-top: -10px;">  I'd love to teach you HTML/CSS!</p>
+            </div>
+            <div style=" display: flex;height: 18%; width: 74%; align-items: center;justify-content: space-between;margin-top: 10px; color: #a9acb3;">
+                <i class="fa-regular fa-comment fa-xl">&nbsp;&nbsp;&nbsp; <b style="font-size:large;" >242</b> </i>
+                <i class="fa-solid fa-retweet fa-xl">&nbsp;&nbsp;&nbsp; <b style="font-size:large;" >142</b> </i>
+                <i class="fa-regular fa-heart fa-xl">&nbsp;&nbsp;&nbsp; <b style="font-size:large;" >2.6 k</b> </i>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
